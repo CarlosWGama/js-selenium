@@ -1,0 +1,9 @@
+#cart {
+    position: relative;
+    right: 10px;
+}
+
+#cart-img {
+    width: 20px;
+    height: 20px;
+}
