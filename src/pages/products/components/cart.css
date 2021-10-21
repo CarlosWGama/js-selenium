@@ -1,9 +1,21 @@
 #cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;;
+    padding-right: 20px;
     position: relative;
-    right: 10px;
+    left: 0px;
 }
 
 #cart-img {
     width: 20px;
     height: 20px;
+}
+
+#cart-count {
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
 }

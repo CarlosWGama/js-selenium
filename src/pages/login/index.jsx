@@ -1,19 +1,22 @@
 import { useState } from 'react';
 import './styles.css';
 import Logo from './../../assets/images/img-01.png';
+import { useHistory } from 'react-router-dom';
 
 export function LoginPage() {
 
+    document.title="Login";
     const [ email, setEmail ] = useState('')
     const [ error, setError ] = useState(false)
     const [ password, setPassword ] = useState('')
+    const history = useHistory();
 
     const handleLogin = (e) => {
         e.preventDefault();
         setError(false);
 
         if (email == 'teste@teste.com' && password == '123456') {
-            console.log('clicou');
+            history.push('/home')
         } else 
             setError(true);
     }
