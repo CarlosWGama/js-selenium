@@ -17,9 +17,9 @@ export default function ProductsPage() {
     const {productsInCart, addProduct, removeProduct } = React.useContext(CartContext);
 
     //Filter
-    // React.useEffect(() => {
-    //     handleSearch()
-    // }, [filter])
+    React.useEffect(() => {
+        handleSearch()
+    }, [])
 
     //Realiza a busca clicando no botão
     const handleSearch = () => {
