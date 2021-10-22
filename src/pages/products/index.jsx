@@ -42,8 +42,8 @@ export default function ProductsPage() {
                 <Cart/>
                 <h1>Lista de Produtos</h1>
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Termo de busca" onChange={(event)=> setFilter(event.target.value)}/>
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick={handleSearch}>Buscar</button>  
+                    <input type="text" class="form-control" id="search-query" placeholder="Termo de busca" onChange={(event)=> setFilter(event.target.value)}/>
+                    <button class="btn btn-outline-secondary" id="search-button" type="button" onClick={handleSearch}>Buscar</button>  
                 </div>
 
                 <div id="products">

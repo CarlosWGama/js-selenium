@@ -10,6 +10,7 @@ Caso opte por baixar o projeto, rode os códigos:
 ```
 git clone https://github.com/CarlosWGama/js-selenium.git site
 cd site
+git checkout inicio
 npm install
 npm start
 ```

@@ -38,16 +38,16 @@ export function LoginPage() {
 
                         {/* EMAIL */}
                         <div class="wrap-input100">
-                            <input class="input100" onChange={(e)=> setEmail(e.target.value)} type="email" placeholder="Email" />						
+                            <input class="input100"  id="input-email" onChange={(e)=> setEmail(e.target.value)} type="email" placeholder="Email" />						
                         </div>
 
                         {/* SENHA */}
                         <div class="wrap-input100">
-                            <input class="input100" type="password" onChange={(e)=> setPassword(e.target.value)}  placeholder="Senha" />
+                            <input class="input100" type="password" id="input-password" onChange={(e)=> setPassword(e.target.value)}  placeholder="Senha" />
                         </div>
                         
                         <div class="container-login100-form-btn">
-                            <button class="login100-form-btn" onClick={handleLogin}>
+                            <button class="login100-form-btn" id="btn-login" onClick={handleLogin}>
                                 Logar
                             </button>
                         </div>
