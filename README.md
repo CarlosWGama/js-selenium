@@ -15,6 +15,11 @@ npm install
 npm start
 ```
 
+
+#### Tags:
+- inicio: Para ir para o projeto inicial sem o teste
+- main: para ir para o projeto final com o teste
+
 ## Créditos
 
 Autor: Carlos W. Gama
